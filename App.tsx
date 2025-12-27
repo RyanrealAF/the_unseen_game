@@ -1,7 +1,6 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import ModuleSection from './components/ModuleSection';
-// Fix: Import Section from types.ts as it's an interface defined there, not an export from data/content.
 import { appContent } from './data/content';
 import { Section } from './types';
 import { AppConstants } from './constants';
